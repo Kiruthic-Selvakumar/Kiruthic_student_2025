@@ -1,9 +1,9 @@
-title: Nighthawk Pages 
+title: Kiruthic Coding
 description: "Class of 2025"
-owner_name: John Mortensen
-github_username: nighthawkcoders
-github_repo: "student_2025" 
-baseurl: "/student_2025"
+owner_name: Kiruthic Selvakumar
+github_username: Kiruthic-Selvakumar
+github_repo: "Kiruthic_2025" 
+baseurl: "/Kiruthic_2025"
 future: true
 remote_theme: jekyll/minima
 minima:
@@ -23,4 +23,5 @@ header_pages:
   - navigation/blog.md
   - navigation/search.md
   - navigation/about.md
+  - navigation/toolsetupjourney.md
   - README4YML.md
