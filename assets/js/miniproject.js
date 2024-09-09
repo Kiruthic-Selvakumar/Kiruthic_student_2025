@@ -1,4 +1,3 @@
-console.log("miniproject.js loaded");
 var compsci_quote_list = [
     { quote: "'Be the change that you wish to see in the world.' — Mahatma Gandhi" },
     { quote: "'To be, or not to be, that is the question.' — William Shakespeare" },
