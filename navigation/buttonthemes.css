@@ -1,0 +1,29 @@
+.stylingelement{
+    background-color:purple;
+    color: orange;
+
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    transition-duration: 0.4s;
+}
+
+.button-slack {
+    background-color: #4CAF50; /* Green */
+    color: white;
+  }
+  
+  .button-github {
+    background-color: #008CBA; /* Blue */
+    color: white;
+  }
+  
+  .button:hover {
+    opacity: 0.8;
+  }

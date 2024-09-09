@@ -8,29 +8,60 @@ hide: true
 
 Hi my name is Kiruthic, and I am an AP Computer Science Principles student. This is a place where you can find all of my coding creations. Visit about me to learn more about me, my background, and my interests. Or click on Tools Step Journey to learn some of the difficulties and problems I faced while trying to setup all the necessary tools on my computer, and how I resolved them.
 
+Hi my name is Kiruthic, and I am an AP Computer Science Principles student. This is a place where you can find all of my coding creations. Visit about me to learn more about me, my background, and my interests. Or click on Tools Step Journey to learn some of the difficulties and problems I faced while trying to setup all the necessary tools on my computer, and how I resolved them.
 
+## Main Menu
+
+<ul>
+  <li><a href="#home">Home</a></li>
+  <li><a href="#about">About</a></li>
+  <li><a href="#blog">Blog</a></li>
+  <li>
+    <a href="#projects">Projects</a>
+    <ul>
+      <li><a href="#project-1">Project 1</a></li>
+      <li><a href="#project-2">Project 2</a></li>
+      <li><a href="#project-3">Project 3</a></li>
+    </ul>
+  </li>
+  <li><a href="#contact">Contact</a></li>
+</ul>
+
+## Home
+Welcome to my Jekyll site. This is the home page.
+
+## About
+This section contains information about me.
+
+## Blog
+This section contains my blog posts.
+-->
 
 <div style="border: 1px solid white">
-<p> Hello </p>
-<button>
+<p style="padding-left: 20px;">Hello.</p> 
+<button style="border-radius: 10px; cursor: pointer; margin-left: 20px;">
   Click here
 </button>
+</div>
 <br>
 
-<div style="border: 1px solid white">
-<p> Hi </p>
-<a href="https://app.slack.com/client/TUDAF53UJ/CUU064ACX" target="_blank">
-    <button style="border-radius 10px;">
-    CSP Slack
-    </button>
-  </a>
+<div style="border: 1px solid white"> 
+  <p style="padding-left: 20px;">  Access the AP CSP Slack page and the Github page to find the code for this site below.</p>
+  <a href="https://app.slack.com/client/TUDAF53UJ/CUU064ACX" target="_blank">
+      <button style="border-radius: 10px; cursor: pointer; margin-left: 20px;">
+      CSP Slack
+      </button>
+    </a>
 
   <a href="https://github.com/Kiruthic-Selvakumar/Kiruthic_student_2025" target="_blank" >
-    <button style="border-radius: 10px; cursor: pointer;">
-    Github
-    </button>
-  </a>
+      <button style="border-radius: 10px; cursor: pointer;">
+      Github
+      </button>
+    </a>  
+    <br>
+</div>
 
+<br>
 
 <!-- Some pictures-->
 <img src="{{site.baseurl}}/images/coding.png" alt="syntax symbol" width="160" height="160">
@@ -218,3 +249,5 @@ Hi my name is Kiruthic, and I am an AP Computer Science Principles student. This
   });
 
 </script>
+
+<link rel="stylesheet" href="{{site.baseurl}}/navigation/buttonthemes.css">

@@ -2,7 +2,7 @@ title: Kiruthic Coding
 description: "Class of 2025"
 owner_name: Kiruthic Selvakumar
 github_username: Kiruthic-Selvakumar
-github_repo: "Kiruthic_2025" 
+github_repo: "Kiruthic_student_2025" 
 baseurl: "/Kiruthic_2025"
 future: true
 remote_theme: jekyll/minima
@@ -25,3 +25,4 @@ header_pages:
   - navigation/about.md
   - navigation/toolsetupjourney.md
   - README4YML.md
+  - navigation/quotes.md
