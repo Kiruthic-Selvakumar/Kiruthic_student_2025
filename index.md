@@ -5,42 +5,29 @@ description: Home Page
 image: /images/mario_animation.png
 hide: true
 ---
+
+<!-- Submenu -->
+<table>
+  <tr>
+    <th>  
+      <a href="{{site.baseurl}}/">
+        <img src="{{site.baseurl}}/images/option2.png" alt="syntax symbol" width="60" height="60"> 
+      </a>
+    </th>
+    <th><h3><a href="{{site.baseurl}}/todolist/"> To Do list </a></h3></th>
+    <th><h3><a href=""> Coming Soon </a></h3></th>
+    <th><h3><a href=""> Coming Soon </a></h3></th>
+  </tr>
+</table>
+
+<!-- Description -->
 <h1><b>Home:</b></h1>
 <br>
 <b>Hi my name is Kiruthic, and I am an AP Computer Science Principles student. This is a place where you can find all of my coding creations. Visit about me to learn more about me, my background, and my interests. Or click on Tools Step Journey to learn some of the difficulties and problems I faced while trying to setup all the necessary tools on my computer, and how I resolved them.
 </b>
 
-<h3><b>Sprint 1:</b></h3>
-<table>
-  <tr>
-    <th> <h2><b>Hacks/Tasks:</b></h2></th>
-    <th> <h2><b>Tangibles:</b></h2> </th>
-    <th> <h2><b>Future Improvements/To Do:</b></h2> </th>
-  </tr>
-  <tr>
-    <th> Github Tools Play </th>
-    <th> Emojis on About me & Mario</th>
-    <th> Try adding on to the mini-project with data from a newspaper</th>
-  </tr>
-  <tr>
-    <th> Github Pages Plaground </th>
-    <th> Random Quotes</th>
-    <th> </th>
-    <tr>
-    <th> SASS </th>
-    <th> Minima Style</th>
-    <th> Create a SASS file, and new unique style for entire webpage</th>
-    <tr>
-    <th> Frontend </th>
-    <th> Buttons Using Wireframe</th>
-    <th> Customize buttons to change color when hovering </th>
-  </tr>
-  </tr>
-  </tr>
-  
-  
-</table>
-<div style="border: 1px solid white">
+<!-- Button w wireframe layout-->
+<div style="border: 1px solid white; border-radius: 15px;">
 <p style="padding-left: 20px;"><b>Hello.</b></p> 
 <button style="border-radius: 10px; cursor: pointer; margin-left: 20px;">
   Click here
@@ -48,7 +35,7 @@ hide: true
 </div>
 <br>
 
-<div style="border: 1px solid white"> 
+<div style="border: 1px solid white; border-radius: 15px;"> 
   <p style="padding-left: 20px;">  <b>Access the AP CSP Slack page and the Github page to find the code for this site below.</b></p>
   <a href="https://app.slack.com/client/TUDAF53UJ/CUU064ACX" target="_blank">
       <button style="border-radius: 10px; cursor: pointer; margin-left: 20px;">
