@@ -1,6 +1,6 @@
 ---
 layout: page 
-title: Tool Setup Journey
+title: Tool Setup
 permalink: /toolsetupjourney/
 ---
 

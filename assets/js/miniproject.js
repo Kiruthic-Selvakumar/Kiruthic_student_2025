@@ -7,6 +7,7 @@ var compsci_quote_list = [
     { quote: "'The journey of a thousand miles begins with one step.' — Lao Tzu" },
     { quote: "'Happiness is not something ready-made. It comes from your own actions.' — Dalai Lama" },
     { quote: "'To love and be loved is to feel the sun from both sides.' — David Viscott" },
+    { quote: "'Don't expect to score if you never shoot.' — Arya" },
     { quote: "'Life is what happens when you're busy making other plans.' — John Lennon" },
     { quote: "'Do what you can, with what you have, where you are.' — Theodore Roosevelt"
 
