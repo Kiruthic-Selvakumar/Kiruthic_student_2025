@@ -13,11 +13,13 @@ title: Cookie Clicker
     <!-- Shop -->
     <div>
         <h3>Shop:</h3>
+        <br>
         <!-- Button to purchase Cookie Monsters -->
         <button id="helper" style="border-radius: 10px; cursor: pointer;">
             Cookie Monster
             Cost: 10 Cookies
         </button>
+        <br>
         <!-- Displays Number of Cookie Monsters -->
         <p id="helperNum"> Cookie Monsters: 0</p>
     </div>
@@ -46,7 +48,7 @@ title: Cookie Clicker
 
     //Click the Cookie to gain one
     document.getElementById('cookie').addEventListener('click', function() {
-        score +=1;
+        score+=1;
         document.getElementById('score').textContent = 'Cookies: ' + score;
 
         //play the cookie eating noise

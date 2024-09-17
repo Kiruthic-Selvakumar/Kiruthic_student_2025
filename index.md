@@ -15,7 +15,7 @@ hide: true
       </a>
     </th>
     <th><h3><a href="{{site.baseurl}}/todolist/"> To Do list </a></h3></th>
-    <th><h3><a href=""> Coming Soon </a></h3></th>
+    <th><h3><a href="{{site.baseurl}}/navigation/cookieclicker"> Cookie Clicker </a></h3></th>
     <th><h3><a href=""> Coming Soon </a></h3></th>
   </tr>
 </table>
@@ -23,14 +23,14 @@ hide: true
 <!-- Description -->
 <h1><b>Home:</b></h1>
 <br>
-<b>Hi my name is Kiruthic, and I am an AP Computer Science Principles student. This is a place where you can find all of my coding creations. Visit about me to learn more about me, my background, and my interests. Or click on Tools Step Journey to learn some of the difficulties and problems I faced while trying to setup all the necessary tools on my computer, and how I resolved them.
-</b>
+> Hi my name is Kiruthic, and I am an AP Computer Science Principles student. This is a place where you can find all of my coding creations. Visit about me to learn more about me, my background, and my interests. Or click on Tools Step Journey to learn some of the difficulties and problems I faced while trying to setup all the necessary tools on my computer, and how I resolved them.
+
 
 <!-- Button w wireframe layout-->
 <div style="border: 1px solid white; border-radius: 15px;">
 <p style="padding-left: 20px;"><b>Hello.</b></p> 
 <button style="border-radius: 10px; cursor: pointer; margin-left: 20px;">
-  Click here
+    Click here
 </button>
 </div>
 <br>
