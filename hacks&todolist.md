@@ -3,19 +3,9 @@ layout: base
 title: To Do List
 permalink: /todolist/
 ---
+
 <!-- Submenu -->
-<table>
-  <tr>
-    <th> 
-      <a href="{{site.baseurl}}/">
-        <img src="{{site.baseurl}}/images/option2.png" alt="syntax symbol" width="60" height="60"> 
-      </a>
-    </th>
-    <th><h3><a href="{{site.baseurl}}/todolist/"> To Do list </a></h3></th>
-    <th><h3><a href=""> Coming Soon </a></h3></th>
-    <th><h3><a href=""> Coming Soon </a></h3></th>
-  </tr>
-</table>
+{% include nav/home.html %}
 
 <br>
 <!-- To Do list Table-->

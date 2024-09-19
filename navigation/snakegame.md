@@ -1,11 +1,12 @@
 ---
-layout: page
+layout: base
 title: Snake
 description: A Javascript Snake game that contains score and preferences.
 permalink: /javascript/project/snake
 toc: true
 comments: false
 ---
+{% include nav/home.html %}
 
 <style>
     body{

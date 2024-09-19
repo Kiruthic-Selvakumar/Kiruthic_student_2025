@@ -6,25 +6,7 @@ image: /images/mario_animation.png
 hide: true
 ---
 
-<!-- Submenu -->
-<table>
-  <tr>
-    <th>  
-      <a href="{{site.baseurl}}/">
-        <img src="{{site.baseurl}}/images/option2.png" alt="syntax symbol" width="60" height="60"> 
-      </a>
-    </th>
-    <th><h3><a href="{{site.baseurl}}/todolist/"> To Do list </a></h3></th>
-    <th><h3><a href="{{site.baseurl}}/navigation/cookieclicker"> Cookie Clicker </a></h3></th>
-    <th><h3><a href=""> Coming Soon </a></h3></th>
-  </tr>
-</table>
-
-<!-- Description -->
-<h1><b>Home:</b></h1>
-<br>
-> Hi my name is Kiruthic, and I am an AP Computer Science Principles student. This is a place where you can find all of my coding creations. Visit about me to learn more about me, my background, and my interests. Or click on Tools Step Journey to learn some of the difficulties and problems I faced while trying to setup all the necessary tools on my computer, and how I resolved them.
-
+{% include nav/home.html %}
 
 <!-- Button w wireframe layout-->
 <div style="border: 1px solid white; border-radius: 15px;">

@@ -1,7 +1,9 @@
 ---
-layout: page
+layout: base
 title: Cookie Clicker
 ---
+
+{% include nav/home.html %}
 
 <!-- Cookie Clicker Game html -->
 

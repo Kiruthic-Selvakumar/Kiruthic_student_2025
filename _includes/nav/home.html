@@ -1,0 +1,46 @@
+
+<!-- Submenu -->
+<table>
+  <tr>
+    <th>  
+      <a href="{{site.baseurl}}/">
+        <img src="{{site.baseurl}}/images/option2.png" alt="syntax symbol" width="60" height="60"> 
+      </a>
+    </th>
+    <th><h3><a href="{{site.baseurl}}/todolist/"> To Do list </a></h3></th>
+    <th>
+      <select id="pageDropdown" class="dropdown-select">
+        <option value="">Javascript Game</option>
+        <option value="{{site.baseurl}}/navigation/cookieclicker">Cookie Clicker</option>
+        <option value="{{site.baseurl}}/navigation/quotes">Quote</option>
+        <option value="{{site.baseurl}}/navigation/calculator">Calculator</option>
+        <option value="{{site.baseurl}}/javascript/project/snake">Snake</option>
+      </select>
+    </th>
+  </tr>
+</table>
+
+<style>
+  .dropdown-select {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #f0f0f0;
+    color: #000;
+    cursor: pointer;
+  }
+
+  .dropdown-select:hover {
+    background-color: #d3d3d3; /* Darker grey on hover */
+  }
+</style>
+
+<script>
+  document.getElementById('pageDropdown').addEventListener('change', function() {
+    const selectedValue = this.value;
+    if (selectedValue) {
+      window.location.href = selectedValue;
+    }
+  });
+</script>
