@@ -4,7 +4,6 @@ title: Cookie Clicker
 ---
 
 {% include nav/home.html %}
-
 <!-- Cookie Clicker Game html -->
 
 <div style="text-align: center; margin-top: 50px;">

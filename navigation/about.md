@@ -1,7 +1,9 @@
 ---
-layout: page
+layout: post
 title: About Me
 permalink: /about/
+toc: True
+comments: True
 ---
 <br>
 My name is Kiruthic Selvakumar,
