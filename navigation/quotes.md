@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Quote Generator
+title: Quotes
 ---
 <br>
 <button style="border-radius: 10px; cursor: pointer; margin-left: 20px;" id="quoteButton">Show Random quote</button>

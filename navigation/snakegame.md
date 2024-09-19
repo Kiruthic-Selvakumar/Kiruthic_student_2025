@@ -1,6 +1,6 @@
 ---
-layout: post
-title: Snake Game
+layout: page
+title: Snake
 description: A Javascript Snake game that contains score and preferences.
 permalink: /javascript/project/snake
 toc: true
@@ -8,7 +8,6 @@ comments: false
 ---
 
 <style>
-
     body{
     }
     .wrap{
@@ -70,7 +69,6 @@ comments: false
         color: #000;
     }
 </style>
-
 
 <div class="container">
     <header class="pb-3 mb-4 border-bottom border-primary text-dark">
@@ -151,7 +149,7 @@ comments: false
         let snake_dir;
         let snake_next_dir;
         let snake_speed;
-        let food = {x: 0, y: 0};
+        let food = {x: 0, y: 0, isPowerUp: false}; // Added isPowerUp attribute
         let score;
         let wall;
         /* Display Control */
@@ -271,20 +269,29 @@ comments: false
             // Snake eats food checker
             if(checkBlock(snake[0].x, snake[0].y, food.x, food.y)){
                 snake[snake.length] = {x: snake[0].x, y: snake[0].y};
-                altScore(++score);
+                if (food.isPowerUp) {
+                    score += 2; // Power-up gives more points
+                } else {
+                    score++;
+                }
+                altScore(score);
                 addFood();
                 activeDot(food.x, food.y);
             }
             // Repaint canvas
             ctx.beginPath();
-            ctx.fillStyle = "royalblue";
+            ctx.fillStyle = "orange";
             ctx.fillRect(0, 0, canvas.width, canvas.height);
             // Paint snake
             for(let i = 0; i < snake.length; i++){
                 activeDot(snake[i].x, snake[i].y);
             }
             // Paint food
-            activeDot(food.x, food.y);
+            if (food.isPowerUp) {
+                activeDot(food.x, food.y, true); // Draw power-up in green
+            } else {
+                activeDot(food.x, food.y); // Draw normal food
+            }
             // Debug
             //document.getElementById("debug").innerHTML = snake_dir + " " + snake_next_dir + " " + snake[0].x + " " + snake[0].y;
             // Recursive call after speed delay, déjà vu
@@ -336,8 +343,8 @@ comments: false
         }
         /* Dot for Food or Snake part */
         /////////////////////////////////////////////////////////////
-        let activeDot = function(x, y){
-            ctx.fillStyle = "#FFFFFF";
+        let activeDot = function(x, y, isPowerUp = false){
+            ctx.fillStyle = isPowerUp ? "green" : "#FFFFFF"; // Green for power-up, white for normal food
             ctx.fillRect(x * BLOCK, y * BLOCK, BLOCK, BLOCK);
         }
         /* Random food placement */
@@ -345,6 +352,7 @@ comments: false
         let addFood = function(){
             food.x = Math.floor(Math.random() * ((canvas.width / BLOCK) - 1));
             food.y = Math.floor(Math.random() * ((canvas.height / BLOCK) - 1));
+            food.isPowerUp = Math.random() < 0.45; // 10% chance of being a power-up
             for(let i = 0; i < snake.length; i++){
                 if(checkBlock(food.x, food.y, snake[i].x, snake[i].y)){
                     addFood();

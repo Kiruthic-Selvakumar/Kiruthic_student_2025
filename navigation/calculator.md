@@ -1,8 +1,8 @@
 ---
 toc: true
 comments: false
-layout: post
-title: Calculator MD
+layout: page
+title: Calculator
 description: Grab of the Calculator from APCSA repo.
 type: tangibles
 courses: { compsci: {week: 7} }
@@ -35,13 +35,23 @@ HTML implementation of the calculator.
     */
     grid-column: span 4;
     grid-row: span 1;
-  
+    
     padding: 0.25em;
     font-size: 20px;
     border: 5px light blue;
-  
+    
     display: flex;
     align-items: center;
+  }
+  .calculator-number, .calculator-operation, .calculator-clear, .calculator-equals {
+    /* Ensure all buttons have the same size and appearance */
+    padding: 1em;
+    font-size: 20px;
+    border: 1px solid #ccc;
+    text-align: center;
+    cursor: pointer;
+    flex: 1 1 25%; /* Make sure all buttons take up equal space */
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
   }
 </style>
 
@@ -71,8 +81,8 @@ HTML implementation of the calculator.
       <div class="calculator-number">.</div>
       <div class="calculator-equals">=</div>
       <!--row 5-->
-      <div class="calculator-operation">^2</div>
-      <div class="calculator-operation">sqrt</div>
+      <div class="calculator-operation">x^3</div>
+      <div class="calculator-operation">log</div>
   </div>
 </div>
 
@@ -153,11 +163,11 @@ HTML implementation of the calculator.
           case "/":
               result = first / second;
               break;
-          case "^2":
-              result = first * first
+          case "x^3":
+              result = first * first * first
               break;
-          case "sqrt":
-              result = Math.sqrt (first)
+          case "log":
+              result = Math.log10 (first)
               break;
           default: 
               break;
