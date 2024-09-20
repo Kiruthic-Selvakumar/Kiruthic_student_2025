@@ -18,16 +18,16 @@ permalink: /todolist/
   </tr>
   <tr>
     <th> Github Tools Play </th>
-    <th> Emojis on About me & Mario</th>
-    <th> Try adding on to the mini-project with data from a newspaper</th>
+    <th> Emoji notebook, and using wikipedia/news</th>
+    <th> Try using this method of getting data, and connect it to my quote generator</th>
   </tr>
   <tr>
     <th> Github Pages Plaground </th>
-    <th> Random Quotes</th>
+    <th> Random Quote Generator</th>
     <th> </th>
     <tr>
     <th> SASS </th>
-    <th> Minima Style</th>
+    <th> Mixed and adjusted minima styles</th>
     <th> Create a SASS file, and new unique style for entire webpage</th>
     <tr>
     <th> Frontend </th>
