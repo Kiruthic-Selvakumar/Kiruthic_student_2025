@@ -89,10 +89,6 @@ a, a:visited, a:hover, a:active {
 
 <br>
 
-<!-- Some pictures-->
-<img src="{{site.baseurl}}/images/coding.png" alt="syntax symbol" width="160" height="160">
-<img src="{{site.baseurl}}/images/pythonimage.webp" alt="python logo" width="160" height="160">
-
 <!-- Everything below is to Code for Mario-->
 <!-- Include submenu from _includes to top of pages -->
 
