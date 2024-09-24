@@ -15,8 +15,8 @@
   width: auto;
   height: auto;
   border-radius: 10px;
-  background-color: #2ccece;
-  border: 3px solid rgb(1, 27, 32);
+  background-color: #63da81;
+  border: 3px solid rgb(0, 0, 0);
   font-size: 1.5em;
 
   display: flex;
@@ -37,7 +37,7 @@
 
  /* darkens the background color on hover to create a selecting effect */
 .button:hover {
-  background-color: #ffffff;
+  background-color: #3e3e3e;
 }
 
 /* "row style" is flexible size and aligns pictures in center */
@@ -75,21 +75,28 @@
 /* styling for the calculator number button */
 .calculator-number {
   @extend .button;
+  height: 130px; 
+  width: 140px;
 }
 
 /* styling for the calculator operation button */
 .calculator-operation {
   @extend .button;
+  background-color: #DA63BC;
+  height: 130px; 
+  width: 140px;
 }
 
 /* styling for the calculator clear button */
 .calculator-clear {
   @extend .button;
-  background-color: #8ad395;
+  background-color: #797979;
 }
 
 /* styling for the calculator equals button */
 .calculator-equals {
   @extend .button;
-  background-color: #1d8566;
+  background-color: #797979;
+  height: 130px; 
+  width: 140px;
 }

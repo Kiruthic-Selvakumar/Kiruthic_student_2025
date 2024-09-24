@@ -29,7 +29,7 @@ courses: { compsci: {week: 7} }
     /* Ensure all buttons have the same size and appearance */
     padding: 1em;
     font-size: 20px;
-    border: 1px solid #ccc;
+    border: 3px solid #3e3e3e;
     text-align: center;
     cursor: pointer;
     flex: 1 1 25%; /* Make sure all buttons take up equal space */
@@ -43,30 +43,40 @@ courses: { compsci: {week: 7} }
       <!--result-->
       <div class="calculator-output" id="output">0</div>
       <!--row 1-->
+      <div class="calculator-clear">A/C</div>
+      <div class="calculator-operation">√</div>
+      <div class="calculator-operation">x³</div>
+      <div class="calculator-operation">log</div>
+      <!--row 2-->
       <div class="calculator-number">1</div>
       <div class="calculator-number">2</div>
       <div class="calculator-number">3</div>
       <div class="calculator-operation">+</div>
-      <!--row 2-->
+      <!--row 3-->
       <div class="calculator-number">4</div>
       <div class="calculator-number">5</div>
       <div class="calculator-number">6</div>
       <div class="calculator-operation">-</div>
-      <!--row 3-->
+      <!--row 4-->
       <div class="calculator-number">7</div>
       <div class="calculator-number">8</div>
       <div class="calculator-number">9</div>
       <div class="calculator-operation">*</div>
-      <!--row 4-->
-      <div class="calculator-clear">A/C</div>
+      <!--row 5-->
       <div class="calculator-number">0</div>
       <div class="calculator-number">.</div>
-      <div class="calculator-equals">=</div>
-      <!--row 5-->
-      <div class="calculator-operation">x^3</div>
-      <div class="calculator-operation">log</div>
+      <div class="calculator-equals">=</div>  
+  
   </div>
 </div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 <!-- JavaScript (JS) implementation of the calculator. -->
 <script>
@@ -133,6 +143,15 @@ courses: { compsci: {week: 7} }
   function calculate (first, second) { // function to calculate the result of the equation
       let result = 0;
       switch (operator) {
+          case "√":
+              result = Math.sqrt(first);
+              break;
+          case "x³":
+              result = first * first * first
+              break;
+          case "log":
+              result = Math.log10 (first)
+              break;
           case "+":
               result = first + second;
               break;
@@ -144,12 +163,6 @@ courses: { compsci: {week: 7} }
               break;
           case "/":
               result = first / second;
-              break;
-          case "x^3":
-              result = first * first * first
-              break;
-          case "log":
-              result = Math.log10 (first)
               break;
           default: 
               break;

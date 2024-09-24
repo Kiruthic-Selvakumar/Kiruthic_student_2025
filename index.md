@@ -8,30 +8,84 @@ hide: true
 
 {% include nav/home.html %}
 
+Hi my name is Kiruthic, and I am an AP Computer Science Principles student. This is a place where you can find all of my coding creations. Visit about me to learn more about me, my background, and my interests. Or click on Tools Step Journey to learn some of the difficulties and problems I faced while trying to setup all the necessary tools on my computer, and how I resolved them.
+
 <!-- Button w wireframe layout-->
-<div style="border: 1px solid white; border-radius: 15px;">
-<p style="padding-left: 20px;"><b>Hello.</b></p> 
-<button style="border-radius: 10px; cursor: pointer; margin-left: 20px;">
-    Click here
-</button>
+<br>
+<br>
+<div class="button-div">
+  <p><b>Hello.</b></p> 
+  <button class="my-button">
+      Click here
+  </button>
 </div>
 <br>
+<br>
+<br>
 
-<div style="border: 1px solid white; border-radius: 15px;"> 
-  <p style="padding-left: 20px;">  <b>Access the AP CSP Slack page and the Github page to find the code for this site below.</b></p>
+<div class="button-div"> 
+  <p>  <b>Access the AP CSP Slack page and the Github page to find the code for this site below.</b></p>
   <a href="https://app.slack.com/client/TUDAF53UJ/CUU064ACX" target="_blank">
-      <button style="border-radius: 10px; cursor: pointer; margin-left: 20px;">
+      <button class="my-button">
       CSP Slack
       </button>
     </a>
 
   <a href="https://github.com/Kiruthic-Selvakumar/Kiruthic_student_2025" target="_blank" >
-      <button style="border-radius: 10px; cursor: pointer;">
+      <button class="my-button">
       Github
       </button>
     </a>  
     <br>
 </div>
+
+<style>
+.button-div {
+    text-align: center;
+    position: relative;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 6px #75ff97, 0 0 9px #75ff97, 0 0 12px #75ff97, 0 0 15px #75ff97; /* Smaller glow */
+    transition: box-shadow 0.3s ease; /* Smooth transition for the box-shadow */
+}
+
+/* Hover effect */
+.button-div:hover {
+    box-shadow: 0 0 15px #75ff97, 0 0 22.5px #75ff97, 0 0 30px #75ff97, 0 0 37.5px #75ff97; /* Larger glow */
+}
+  
+  .my-button {
+      background: linear-gradient(45deg, #2d773f, #75ff97); /* Cool blue gradient */
+      border: none !important;
+      color: white !important;
+      padding: 15px 32px !important;
+      text-align: center !important;
+      text-decoration: none !important;
+      display: inline-block !important;
+      font-size: 16px !important;
+      margin: 10px !important;
+      cursor: pointer !important;
+      transition: background 0.3s, transform 0.3s, box-shadow 0.3s !important;
+      border-radius: 12px !important;
+      position: relative !important;
+      overflow: hidden !important;
+  }
+
+/* Hover effect */
+.my-button:hover {
+    transform: scale(1.1); /* Slightly larger */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a shadow */
+}
+
+/* Ensure no extra margin or padding on anchor tags */
+a, a:visited, a:hover, a:active {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+}
+
+</style>
 
 <br>
 
