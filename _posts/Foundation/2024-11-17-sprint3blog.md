@@ -16,10 +16,12 @@ The main purpose of my group's social media page is to create an environment whe
     <img src="{{site.baseurl}}/images/flockersfrontend.png" alt="flocker frontend example" width=525 height=300>
 </div>
 
-## Collaboration
+## Collaboration( With Evidence )
 As an overview, my team focused on implementing AGILE methodology roles in our work, as well as the way we iteratively coded. Although roles began to transform as we each truly found our strength and passion in the overall process, we all tried our best to check each others work. 1-2 of us were focusing on Backend and testing, and we had our Scrum Master and Integrator roles which helped us manage the work and integrate it. As well as frontend coders who came up with several prototypes, but as a whole the functionality and how the code works in order to achieve its purpose had a combined contribution.
 
-I think our greatest example of collaboration is how we split roles, as a strong backend coder Anvay helped our team significantly in creating a new API, as well as adding functionality to the website, coupling his strength, and my strength in creativity and understanding the overall objective and purpose we were able to engineer a backend that interacts with the frontend to achieve our goals, along with working with Pranav and Rayhaan to sort out issues in the frontend in order to get the backend and frontend working in harmony.
+I think our greatest example of collaboration is how we split roles, as a backend coder Anvay helped our team significantly in creating a new API, as well as adding functionality to the website, coupling his skills, as well as my skill in creativity and understanding the overall objective and purpose we were able to engineer a backend that interacts with the frontend to achieve our goals, along with working with Pranav and Rayhaan to sort out issues in the frontend in order to get the backend and frontend working in harmony.
+
+Other teams: Initally figuring out the frontend and backend was quite the struggle, but as soon as one of us made an initial backend break through, we quickly helped other groups in our class to help gain and understanding and figure out how to move forward.
 
 ## My Contribution
 As the integrator of the team, it was my responsibility and job to make sure to make pull requests and be checking for any possible merge issues or conflicts. I also worked with the integrators of other groups in order to make sure that the organization of our class period's page made sense, and had a proper hotbar and navigation. I also worked in the frontend with my peers in order to help implement styling features for the buttons and color gradients that make the site more visually pleasing. In addition, I played a large role in the original prototype and determining the layout of the website. I also worked to help test the backend and make sure that it was functional by trying out all sorts of different scenarios and test cases.
@@ -31,6 +33,8 @@ My team and I took advantage of Github Issues for planning, and made sure to put
 <a href="https://github.com/CyberLord09/anvay_2025/issues/17">Initial Executive Summary</a>
 /
 <a href="https://github.com/CyberLord09/anvay_2025/issues/18">Ideation Process</a>
+
+Our entire process of iterative coding and keeping in mind the AGILE Scrum methods, we first made our plan shown in the Executive Summary, with examples of what we aspired our frontend to look like. Then we checked our work, and gained feedback from other groups such as Weston's group from my class, to gain another perspective and make sure our idea was foolproof.
 
 ## Checklist:
 
