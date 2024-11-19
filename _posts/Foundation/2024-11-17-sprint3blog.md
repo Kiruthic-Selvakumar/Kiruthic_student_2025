@@ -23,6 +23,10 @@ I think our greatest example of collaboration is how we split roles, as a backen
 
 Other teams: Initally figuring out the frontend and backend was quite the struggle, but as soon as one of us made an initial backend break through, we quickly helped other groups in our class to help gain and understanding and figure out how to move forward.
 
+|Kiruthic| Anvay  | Pranav | Rayhaan| Yuva   |
+|--------|--------|--------|--------|--------|
+|   Integrator, Frontend Coder, Backend Testing, Helped in Ideation     |  Scrum Master, Backend Coder, and Backend Tester      | Frontend Coder, and documented planning       | Frontend Coder       | Documented Planning and Frontend Coder       |
+
 ## My Contribution
 As the integrator of the team, it was my responsibility and job to make sure to make pull requests and be checking for any possible merge issues or conflicts. I also worked with the integrators of other groups in order to make sure that the organization of our class period's page made sense, and had a proper hotbar and navigation. I also worked in the frontend with my peers in order to help implement styling features for the buttons and color gradients that make the site more visually pleasing. In addition, I played a large role in the original prototype and determining the layout of the website. I also worked to help test the backend and make sure that it was functional by trying out all sorts of different scenarios and test cases.
 
