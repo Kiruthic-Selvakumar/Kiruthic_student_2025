@@ -9,6 +9,25 @@ toc: true
 # Multiple Choice Completion(63/66)
 <img src="{{site.baseurl}}/images/practicemcq.png">
 
+## Some Analytics and Analysis of My Assessment
+<img src="{{site.baseurl}}/images/topic1.png">
+<img src="{{site.baseurl}}/images/topic2.png">
+
+<img src="{{site.baseurl}}/images/impactcomputing.png">
+
+#### Safe Computing (Encryption)
+
+<img src="{{site.baseurl}}/images/safecomputing.png" height="800" width="800">
+<br>
+<img src="{{site.baseurl}}/images/encryptiontype.png">
+
+
+#### Algorithmic Efficiency
+
+<img src="{{site.baseurl}}/images/efficiency.png">
+
+
+
 ## What I learned:
 This Practice Multiple Choice Exam was a challenge like I have never seen before. It required extensive use of logic, and thinking how exactly each step in each question would change a variable, for example. I had to use my mathematical thinking and problem-solving skills to solve many of the questions. I learned that many questions do not require much textbook knowledge but I have to be very keen on what each line of code means and what it does. So it is important to be observant and understand how each line of code plays out.
 
