@@ -20,8 +20,6 @@ Then I moved on to mathematical expressions. These are simple operators that all
 
 In the lesson I included a table to summarize these mathematical expressions and a table for order of operations. I supplemented this lesson with popcorn hacks, and along with my group went over Python and Javascript examples.
 
-
-
 ## 3.5 Booleans
 In this lesson that I helped create and was presented by my groupmates, we learned and discusses relational operators that help us craft conditional statements. These tools help us compare the values and different data we have stored in variables. We also went over the creation of truth tables that help people visualize and think about what is going on behind the scenes when different operators are used. 
 
