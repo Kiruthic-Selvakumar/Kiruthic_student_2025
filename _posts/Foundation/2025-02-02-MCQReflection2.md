@@ -58,3 +58,8 @@ This question really surprised me because I've never seen such a question, and d
 <img src="{{site.baseurl}}/images/ipaddress.png">
 
 This question wasn't as interesting or thought-provoking as the others, but it shows that I learned a lot during the 2nd trimester about the internet, and I understand how IP addresses work, even though I get a more challenginge one wrong above. Each device connected to a network is assigned an IP address, and simialr to a real address this is how information can be sent to and from that device.
+
+
+## Overall Plan for Improvement
+
+I plan on working hard to address the necessary topics through team teaches in Big Idea 5, as well as continuing to do practice problems containing logic problems and content.
