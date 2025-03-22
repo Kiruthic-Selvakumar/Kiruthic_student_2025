@@ -17,6 +17,8 @@
   border-bottom: 1px solid;
   min-height: $base-font-size * 3;
   line-height: $base-font-size * 3;
+  background-color: black; // Add this line to make the header black
+  color: white; // Optional: Set text color to white for better contrast
 
   @include media-query($on-small) {
     display: flex;
@@ -58,6 +60,8 @@
   border: 1px solid;
   border-radius: 0.4em;
   text-align: right;
+  background-color: black; // Add this line to make the navigation black
+  color: white; // Optional: Set text color to white for better contrast
 
   .nav-trigger {
     display: none;
