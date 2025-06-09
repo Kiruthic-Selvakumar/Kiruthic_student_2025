@@ -65,13 +65,16 @@ Verified by: **Open Coding Society NFT Registry**
 
 ## Picture
 
-<img src="{{site.baseurl}}/images/intertravel.png">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/jNFIHRm9wgk" frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowfullscreen></iframe>
+
 
 ---
 
 ## Links
 
-- [Live Demo](https://your-live-intertravel-url.com)
+- [Live Demo](kiruthic-selvakumar.github.io/travel_frontend/)
 
 ---
 
