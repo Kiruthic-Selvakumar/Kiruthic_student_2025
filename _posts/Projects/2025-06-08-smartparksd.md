@@ -65,6 +65,8 @@ Verified by: **Open Coding Society NFT Registry**
 ## Picture
 
 <img src="{{site.baseurl}}/images/smartpark.png">
+<img src="{{site.baseurl}}/images/ai_model.png">
+
 
 ---
 
