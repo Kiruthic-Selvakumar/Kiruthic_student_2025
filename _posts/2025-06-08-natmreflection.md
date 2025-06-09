@@ -64,9 +64,21 @@ Our team received questions about implementation details like data storage, less
 
 ---
 
-### Review with Derick Lee
+### Review with Derick Lee — PilotCity
 
-*(Leave this section blank for now, to be filled after your one-on-one review.)*
+<img src="{{site.baseurl}}/images/derickpres.png" width=450>
+
+During the final Night at the Museum, our group had the opportunity to present our SmartParkSD project directly to Derick Lee, founder of PilotCity — a company focused on connecting students with real-world industry experiences through innovation.
+
+We demonstrated how our system could help San Diego residents find real-time parking availability and plan their trips efficiently. Derick approached our project from a professional and product development standpoint, offering feedback that blended technical, business, and user-centered perspectives.
+
+#### Key Insights from Derick:
+- He emphasized the importance of formatting and visual cues to guide users intuitively through key actions, especially on mobile layouts.
+- He suggested we explore embedding our tool into **existing navigation platforms like Google Maps**, increasing usability without requiring standalone app adoption.
+- From an industry perspective, he identified **who would find value in the tool** — including cities, tourism boards, and transportation startups — and suggested we frame our pitch toward stakeholders with logistical interests.
+- He included us in his **top 15 projects** of the event, which reflected both the functionality of our demo and the potential for real-world application.
+
+This session gave us valuable insight into how to make our projects not only technically strong but also marketable, scalable, and practical in real-world environments.
 
 ---
 
