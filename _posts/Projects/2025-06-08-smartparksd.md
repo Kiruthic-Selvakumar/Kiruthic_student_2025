@@ -2,6 +2,7 @@
 layout: post
 title: SmartPark SD — San Diego Parking Prediction
 description: "A machine learning web app that identifies the best parking meters in San Diego."
+categories: [Projects]
 permalink: /smartpark/
 ---
 

@@ -2,6 +2,7 @@
 layout: post
 title: Interactive Lesson Layouts System
 description: "A student-built toolkit for teaching interactive, engaging CS lessons."
+categories: [Projects]
 permalink: /lessonlayouts/
 ---
 

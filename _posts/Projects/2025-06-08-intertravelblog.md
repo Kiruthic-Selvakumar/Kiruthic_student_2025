@@ -2,6 +2,7 @@
 layout: post
 title: InterTravel — Comprehensive Vacation Planner
 description: "A full-stack AI-powered app for planning, rating, and budgeting trips."
+categories: [Projects]
 permalink: /intertravel/
 ---
 

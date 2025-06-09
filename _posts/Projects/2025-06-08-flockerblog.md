@@ -2,6 +2,7 @@
 layout: post
 title: Internet Debates — Flocker
 description: "A full-stack social platform for passionate internet debates."
+categories: [Projects]
 permalink: /flocker/
 ---
 

@@ -2,6 +2,7 @@
 layout: post
 title: Stats & Analytics
 description: "A summary of my performance data, contributions, and predicted outcomes from the year."
+categories: [Final]
 permalink: /stats/
 ---
 

@@ -2,6 +2,7 @@
 layout: post
 title: AP Study Plan 2025
 permalink: /apstudyplan/blog
+categories: [Final]
 comments: True
 toc: true
 ---

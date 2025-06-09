@@ -2,6 +2,7 @@
 layout: post
 title: Night at the Museum year Round
 permalink: /nightatmuseum/blog
+categories: [Final]
 comments: True
 toc: true
 ---
