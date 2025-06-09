@@ -48,7 +48,7 @@ Issued by: **Open Coding Society**
 
 ## NFT Achievement
 
-**NFT: Paris Activity Planner UI (CSP Category)**  
+**NFT: Customer Planner UI (CSP Category)**  
 _Awarded for designing and implementing a unique attraction-rating interface with AI features and live feedback mechanisms._  
 Status: _Pending Blockchain Storage_  
 Verified by: **Open Coding Society NFT Registry**

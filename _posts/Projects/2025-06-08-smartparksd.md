@@ -47,7 +47,7 @@ Issued by: **Open Coding Society**
 
 ## NFT Achievement
 
-**NFT: Smart City Civic Tech Engine (CSP Category)**  
+**NFT: Smart City Tech (CSP Category)**  
 _This token certifies my unique contribution to civic technology through a machine learning interface designed to improve urban navigation._  
 Status: _Pending Blockchain Storage_  
 Verified by: **Open Coding Society NFT Registry**
@@ -70,8 +70,8 @@ Verified by: **Open Coding Society NFT Registry**
 
 ## Links
 
-- [GitHub Repo](https://github.com/yourname/smartpark)  
-- [Live Project (if deployed)](#)
+- [GitHub Repo](https://github.com/Hypernova101/parking_frontend)  
+- [Live Project (if deployed)](hypernova101.github.io/parking_front)
 
 ---
 

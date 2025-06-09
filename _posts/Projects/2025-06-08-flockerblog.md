@@ -23,24 +23,24 @@ Flocker turns hot takes into structured debates. Users spark discussions on ques
 
 ## My Unique Contributions
 
-- Created the full frontend UI with clean, interactive design.  
+- Created the frontend UI with clean, interactive design.  
 - Built the post creation and threaded reply functionality.  
 - Developed the sidebar switcher to navigate debates.  
 - Integrated frontend to backend with RESTful APIs.  
+- Worked in collaboration
 
 ---
 
 ## What I Learned
 
 - **UI/UX strategy** for community-driven apps  
-- **Real-time interaction** with backend services  
 - **Team coordination** on layout and feature integration  
 
 ---
 
 ## Microcredential Earned
 
-**CSP: Data Analysis with Python Certificate**  
+**CSP: Backend interaction with Python Certificate**  
 _Awarded for backend integration and managing user-post data pipelines with Flask and SQLite._  
 Issued by: **Open Coding Society**
 

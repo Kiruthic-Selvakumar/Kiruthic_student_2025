@@ -38,7 +38,6 @@ Standardized technical skills, tools, and frameworks mastered over the trimester
 | HTML & CSS | Built responsive UIs for multiple projects |
 | JavaScript DOM | Controlled UI interactivity, rating bar, animations |
 | JSON & YAML | Used for metadata and config in flashcards and AI modules |
-| Jinja2 Templating | Dynamic rendering of HTML using Python variables |
 | REST API Design | Designed modular post/review endpoints |
 | AI Prompt Engineering | Wrote custom prompts for AI comprehension tool |
 | API Integration | Used external AI and chatbot APIs |
@@ -49,7 +48,7 @@ Standardized technical skills, tools, and frameworks mastered over the trimester
 | Authentication | Created a login/signup system with hashed passwords |
 | Deployment & Hosting | Pushed sites via GitHub Pages and rendered backend locally |
 | Data Validation | Implemented Flask request checks and form validation |
-| MVC Structure | Organized frontend/backend logic using clean patterns |
+
 
 Total: **21 unique CSP Certificates**, all earned through real-world projects and demos.
 
@@ -170,19 +169,19 @@ Moving forward, I plan to deepen these skills by working on more complex project
 
 
 ## 1. Public Transit Efficiency
-![San Diego Trolley Map](https://www.sdmts.com/sites/default/files/attachments/regional-transit-map.pdf)
+
 Use transit data to detect delays, predict congestion, and suggest route improvements via an AI-powered dashboard.
 
 ## 2. Air Quality & Health Alerts
-![San Diego Air Quality Map](https://www.iqair.com/air-quality-map/usa/california/san-diego)
+
 Aggregate sensor and weather data to forecast pollution spikes and send real-time health advisories.
 
 ## 3. Affordable Housing Finder
-![San Diego Affordable Housing Map](https://sdhc.org/housing-opportunities/affordable-rentals/map/)
+
 Combine housing listings and subsidy info to recommend affordable options personalized to user needs.
 
 ## 4. Tourist Flow Predictor
-![San Diego Tourist Attractions Map](https://www.sandiego.org/plan/maps.aspx)
+
 Analyze tourism and traffic data to forecast crowding at hotspots and suggest optimal visiting times.
 
 ---
